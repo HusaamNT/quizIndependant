@@ -41,10 +41,9 @@ class Button4 extends Button{
   }
 }
 
-const questions1 = new Question(
-  "What does CSS stand for?",
-
-  
-);
-
-console.log(questions1)
+const questionList = [
+  new Question("Which option isn't a data type?", "b2"),
+  new Question("Which option is a popular programming language?", "b3"),
+  new Question("Which of these examples aren't a for loop?", "b1"),
+  new Question("What is recursion?", "b4")
+]

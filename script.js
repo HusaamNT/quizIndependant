@@ -47,3 +47,10 @@ const questionList = [
   new Question("Which of these examples aren't a for loop?", "b1"),
   new Question("What is recursion?", "b4")
 ]
+
+const Button1List = [
+  new Button1("String"),
+  new Button1("BananaPeel v3.1"),
+  new Button1("for(each element of source)"),
+  new Button1("A preogramming language")
+]

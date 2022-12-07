@@ -5,10 +5,10 @@ class Question{
   }
 }
 
-class Button1{
-  constructor(answer1, id){
-    this.answer1 = answer1;
-    "b1" = id;
+class Button{
+  constructor(answer, id){
+    this.answer = answer;
+    this.id = id;
   }
 }
 

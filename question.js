@@ -1,5 +1,5 @@
 class Question{
-    constructor(questionString, button1, button2, button3, button4, answer, input){
+    constructor(questionString, button1, button2, button3, button4, answer){
         this.questionString = questionString;
         this.button1 = button1;
         this.button2 = button2;

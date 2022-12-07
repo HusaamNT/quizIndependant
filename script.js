@@ -8,25 +8,7 @@ class Question{
 class Button1{
   constructor(answer1, id){
     this.answer1 = answer1;
-    this.id = "b1";
-  }
-}
-class Button2{
-  constructor(answer1, id){
-    this.answer1 = answer1;
-    this.id = "b2";
-  }
-}
-class Button3{
-  constructor(answer1, id){
-    this.answer1 = answer1;
-    this.id = "b3";
-  }
-}
-class Button4{
-  constructor(answer1, id){
-    this.answer1 = answer1;
-    this.id = "b4";
+    "b1" = id;
   }
 }
 

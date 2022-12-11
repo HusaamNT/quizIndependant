@@ -41,6 +41,13 @@ button {
   background-color: rgba(158, 160, 74, 0.986);
   color: rgb(244, 248, 9);
 }
+.game2{
+  display: flex;
+  flex-direction: column;
+
+  border: solid 5px rgb(30, 255, 0);
+  align-items: center;
+}
 .start2{
   display: flex;
   border: solid 5px rgb(255, 238, 0);
@@ -55,7 +62,7 @@ button {
 
 .bottom2{
     display: flex;
-    border: solid 5px green;
+    border: solid 5px rgb(241, 5, 5);
     justify-content: space-around;
 
 }

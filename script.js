@@ -2,6 +2,8 @@ const button1 = $("#option1");
 const button2 = $("#option2");
 const button3 = $("#option3");
 const button4 = $("#option4");
+const startButtons = $(".startButtons")
+
 
 class Question{
   constructor(questionString, answer){

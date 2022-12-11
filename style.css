@@ -1,6 +1,7 @@
 h1 {
   margin-top: 0px;
   font-size: 500%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 button {
   height: 70px;
@@ -8,8 +9,15 @@ button {
   background-color: azure;
   border-color: grey;
   margin-bottom: 30px;
+  font-size: 30px;
 }
-
+.startButtons{
+  height: 70px;
+  width: 140px;
+  font-size: 30px;
+  background-color: rgb(170, 245, 220);
+  border: solid rgb(14, 161, 137) 7px;
+}
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -18,10 +26,27 @@ button {
     border: 5px solid pink;
 }
 #option1 {
-  background-color: red;
-  border: solid 7px;
-  border-color: rgb(116, 2, 2);
+  background-color: rgba(255, 16, 16, 0.562);
+  color: rgb(236, 21, 14);
 }
+#option2 {
+  background-color: rgba(32, 16, 255, 0.336);
+  color: rgb(31, 11, 145);
+}
+#option3 {
+  background-color: rgba(16, 255, 36, 0.274);
+  color: rgb(30, 165, 12);
+}
+#option4 {
+  background-color: rgba(158, 160, 74, 0.986);
+  color: rgb(244, 248, 9);
+}
+.start2{
+  display: flex;
+  border: solid 5px rgb(255, 238, 0);
+  justify-content: space-around;
+}
+
 .top2{
     display: flex;
     border: solid 5px blue;

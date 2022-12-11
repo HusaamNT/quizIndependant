@@ -49,7 +49,7 @@ const button1List = [
   new Button1("String"),
   new Button1("BananaPeel v3.1"),
   new Button1("for(each one from all)"),
-  new Button1("A preogramming language")
+  new Button1("A pregramming language")
 ]
 const button2List = [
   new Button1("Word"),
@@ -70,4 +70,4 @@ const button4List = [
   new Button1("A preogramming language")
 ]
 
-console.log(questionList[1])  
+ 

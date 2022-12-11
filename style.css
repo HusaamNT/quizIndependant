@@ -11,11 +11,26 @@ button {
 }
 
 .flex-container {
-  padding: 50px;
-  border: 30px solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    border: 5px solid pink;
 }
 #option1 {
   background-color: red;
   border: solid 7px;
   border-color: rgb(116, 2, 2);
+}
+.top2{
+    display: flex;
+    border: solid 5px blue;
+    justify-content: space-around;
+}
+
+.bottom2{
+    display: flex;
+    border: solid 5px green;
+    justify-content: space-around;
+
 }

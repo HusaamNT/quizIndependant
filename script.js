@@ -11,42 +11,39 @@ class Question{
 }
 
 class Button{
-  constructor(option, id){
+  constructor(option){
     this.option = option;
-    this.id = id;
   }
 }
 class Button1 extends Button{
   constructor(option){
-    super(option, id);
+    super(option);
     this.id = "b1";
   }
 }
 class Button2 extends Button{
   constructor(option){
-    super(option, id);
+    super(option);
     this.id = "b2";
   }
 }
 class Button3 extends Button{
   constructor(option){
-    super(option, id);
+    super(option);
     this.id = "b3";
   }
 }
 class Button4 extends Button{
   constructor(option){
-    super(option, id);
+    super(option);
     this.id = "b4";
   }
 }
 
-const questionList = [
-  new Question("Which option isn't a data type?", "b2"),
-  new Question("Which option is a popular programming language?", "b3"),
-  new Question("Which of these examples aren't a type of for-loop?", "b1"),
-  new Question("What is recursion?", "b4")
-]
+const question1 =  new Question("Which option isn't a data type?", "b2");
+const question2 =  new Question("Which option is a popular programming language?", "b3");
+const question3 =  new Question("Which of these examples aren't a type of for-loop?", "b1");
+const question4 =  new Question("What is recursion?", "b4");
 
 const button1List = [
   new Button1("String"),
@@ -72,3 +69,5 @@ const button4List = [
   new Button1("for(let element in source)"),
   new Button1("A preogramming language")
 ]
+
+console.log(questionList[1])  

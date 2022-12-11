@@ -2,6 +2,7 @@ const button1 = $("#option1");
 const button2 = $("#option2");
 const button3 = $("#option3");
 const button4 = $("#option4");
+const startOption = $("#start")
 const startButtons = $(".startButtons")
 
 $(button1).hide();
@@ -78,7 +79,11 @@ const button4List = [
 
 function startGame(){
   $(startButtons).hide();
+  $(button1).show();
+$(button2).show();
+$(button3).show();
+$(button4).show();
+console.log("hi")
+};
 
-
-}
-addEventListener()
+startOption.on("click", startGame())

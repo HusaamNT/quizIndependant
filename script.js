@@ -4,6 +4,10 @@ const button3 = $("#option3");
 const button4 = $("#option4");
 const startButtons = $(".startButtons")
 
+$(button1).hide();
+$(button2).hide();
+$(button3).hide();
+$(button4).hide();
 
 class Question{
   constructor(questionString, answer){
@@ -72,4 +76,9 @@ const button4List = [
   new Button1("A preogramming language")
 ]
 
- 
+function startGame(){
+  $(startButtons).hide();
+
+
+}
+addEventListener()

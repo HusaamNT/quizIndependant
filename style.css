@@ -22,7 +22,8 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     border: 5px solid pink;
 }
 #option1 {

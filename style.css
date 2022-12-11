@@ -5,11 +5,12 @@ h1 {
 }
 button {
   height: 70px;
-  width: 70px;
   background-color: azure;
   border-color: grey;
   margin-bottom: 30px;
   font-size: 30px;
+  width: fit-content;
+  padding: 10px;
 }
 .startButtons{
   height: 70px;

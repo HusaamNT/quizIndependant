@@ -58,38 +58,45 @@ const question3 = new Question(
 );
 const question4 = new Question("What is recursion?", "b4");
 
-const button1List = [
-  new Button1("String"),
-  new Button1("BananaPeel v3.1"),
-  new Button1("for(each one from all)"),
-  new Button1("A pregramming language"),
-];
-const button2List = [
-  new Button1("Word"),
-  new Button1("King Cobra"),
-  new Button1("for(i=0, i<source, i++)"),
-  new Button1("A preogramming language"),
-];
-const button3List = [
-  new Button1("Integer"),
-  new Button1("Python"),
-  new Button1("for(each element of source)"),
-  new Button1("A preogramming language"),
-];
-const button4List = [
-  new Button1("Character"),
-  new Button1("Tarantula"),
-  new Button1("for(let element in source)"),
-  new Button1("A preogramming language"),
-];
 
+const b1_1 =  new Button1("String");
+const b1_2 =  new Button1("BananaPeel v3.1");
+const b1_3 =  new Button1("for(each one from all)");
+const b1_4 =  new Button1("A pregramming language");
+
+
+const b2_1 =  new Button1("Word");
+const b2_2 =  new Button1("King Cobra");
+const b2_3 =  new Button1("for(i=0, i<source, i++)");
+const b2_4 =  new Button1("A preogramming language");
+
+
+  const b3_1 =  new Button1("Integer");
+  const b3_2 =  new Button1("Python");
+  const b3_3 =  new Button1("for(each element of source)");
+  const b3_4 =  new Button1("A preogramming language");
+
+
+  const b4_1 = new Button1("Character");
+  const b4_2 =  new Button1("Tarantula");
+  const b4_3 = new Button1("for(let element in source)");
+  const b4_4 = new Button1("A preogramming language");
+
+
+setUpQuestion1 = () => {
+  
+  JSON.stringify(button1List)
+  console.log(typeof button1List)
+  button1.innerHTML = button1List[1]
+}
+setUpQuestion1()
 const startGame = function() {
   $(startButtons).hide();
   $(button1).show();
   $(button2).show();
   $(button3).show();
   $(button4).show();
-  console.log("hi");
+  ;
 }
 
 startOption.addEventListener("click", startGame)

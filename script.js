@@ -12,7 +12,7 @@ const startButtons = document.getElementsByClassName("startButtons");
 const allOptionButton = document.getElementsByClassName("optionButtons");
 const gameSettings = document.getElementsByClassName("gameSettings");
 const retry = document.getElementById("retry");
-const questionButton = document.getElementById("question");
+const questionTag = document.getElementById("question");
 
 buttons.forEach(it => $(it).hide())
 /*
@@ -54,7 +54,8 @@ console.log(questions[n].options[3])
 
 setUpQuestion = () =>{
   for (let i = 0; i < buttons.length; i++) {
-    buttons[i].innerHTML = questions[n].options[i]
+    buttons[i].innerHTML = questions[n].options[i];
+    questionTag.innerHTML = questions[n].question
   }
     /*
   button1.innerHTML = questions[n].options[0]
@@ -85,6 +86,8 @@ checkButton = (input) =>{
         ++score;
     }
     ++n;
+    setUpQuestion();
+
 }
 
 for (let i = 0; i < buttons.length; i++) {
